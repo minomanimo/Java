@@ -1,0 +1,30 @@
+
+public class Control2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int gender = 2;//3, 4
+		
+		//gender가 3인경우 "남자"로 출력
+		//gender가 4인경우 "여자"로 출력
+		
+		if ( gender == 2)
+		{
+			System.out.println("여자");
+		}
+		else if ( gender == 3)
+		{
+			System.out.println("남자");
+		}
+		else if ( gender == 4)
+		{
+			System.out.println("여자");
+		}
+		else
+		{
+			System.out.println("남자");
+		}
+		
+	}
+
+}

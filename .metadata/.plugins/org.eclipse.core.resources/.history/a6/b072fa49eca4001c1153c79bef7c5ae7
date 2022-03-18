@@ -1,0 +1,15 @@
+
+public class ChTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char aVar = 'A';
+		System.out.println("aVar : "+aVar);
+		System.out.println("aVar : "+(int)aVar);
+		
+		int x = 7;
+		System.out.println(x >=5 | x <=10);
+		//System.out.println(Integer.toBinaryString(x >=5 | x <=10));
+	}
+
+}

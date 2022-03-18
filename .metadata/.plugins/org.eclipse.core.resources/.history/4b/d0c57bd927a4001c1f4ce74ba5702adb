@@ -1,0 +1,13 @@
+
+public class Ex01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int python = 60, java = 70, android = 80, c = 50, c1 = 30;
+		int a = 0, b = 0;
+		a = python + java + android + c + c1;
+		b = a/5;
+		System.out.printf("나잘난의 성적 총합계는 %f\n 입니다. 평균은 %f\n입니다", a, b);
+	}
+
+}
